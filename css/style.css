@@ -1,4 +1,7 @@
-                          /* site-header */
+body{
+  font-family: "Roboto", sans-serif;
+}
+                         /* site-header */
 .site-header {
   background-color: #fff;
 }
@@ -18,7 +21,9 @@
 }
 
 .primary-button{
-  font-style: 13px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
   line-height: 15px;
   background-color: #FF7500;
   color: #fff;
@@ -31,6 +36,7 @@
 }
 
 .python-heading {
+  font-family: 'Roboto Condensed', sans-serif;
   font-style: normal;
   font-size: 40px;
   font-weight: 700;
@@ -57,12 +63,13 @@
 }
 
 .answers-heading{
-font-style: normal;
-font-weight: 700;
-font-size: 72px;
-line-height: 1.2;
-letter-spacing: 0.5px;
-color: #000000;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  color: #000000;
 }
 
 .icon-wrapper{
@@ -72,6 +79,7 @@ color: #000000;
 }
 
 .feature-headings{
+  font-family: 'Roboto Condensed', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -95,6 +103,7 @@ color: #000000;
 }
 
 .sale-heading{
+  font-family: 'Roboto Condensed', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
