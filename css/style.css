@@ -13,6 +13,7 @@ body{
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .sitenav-link{
@@ -40,6 +41,8 @@ body{
   background-color: #252420;
   color: #fff;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 
 }
 
