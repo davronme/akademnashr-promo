@@ -18,32 +18,36 @@
   <header class="site-header">
 
       <a href="index.html"><img src="img/logos/akademnashr_logo.svg" alt="Akademnashr logosi"></a>
-      <nav>
+      <nav class="">
         <ul class = "sitenav-list">
           <li><a class = "sitenav-link" href="#">Bosh sahifa</a></li>
           <li><a class = "sitenav-link" href="#">Kitoblar</a></li>
           <li><a class = "sitenav-link" href="#">Aksiyalar</a></li>
           <li><a class = "sitenav-link" href="#">Kantaktlar</a></li>
+          <li><a class="primary-button" href="#">Ro'yxatdan o'tish</a></li>
         </ul>
       </nav>
-    <a class="primary-button" href="#">Ro'yxatdan o'tish</a>
+
   </header>
   <main>
 
     <div>
       <section class="first-rectangle" >
-        <hr class="orange-line">
-        <h2 class = "python-heading">Paytinda dasturlash asosalari</h2>
-        <p class="python-text">Dasturlash asoslariga oid O'zbek tilidagi ilk eng mukamal qo'lanma.
-          Kitobning har bir bo'limi uchun maxsus video darslig yozilgan bo'lib,
-          ularga kitobda ko'rsatilgan QK kod orqali o'tish mumkin</p>
-          <a class="primary-button" href="#">Buyurtma berish</a>
+        <div>
+          <hr class="orange-line">
+          <h2 class = "python-heading">Paytinda dasturlash asosalari</h2>
+          <p class="python-text">Dasturlash asoslariga oid O'zbek tilidagi ilk eng mukamal qo'lanma.
+            Kitobning har bir bo'limi uchun maxsus video darslig yozilgan bo'lib,
+            ularga kitobda ko'rsatilgan QK kod orqali o'tish mumkin</p>
+            <a class="primary-button" href="#">Buyurtma berish</a>
+        </div>
           <img src="img/python-book.jpg" alt="python-book " width="534" height="534" srcset="img/python-book.jpg 1x, img/python-book@2x.jpg 2x">
       </section>
 
-      <section class="second-rectangle">
+      <section class="featurs">
+        <hr class="orange-line">
         <h2 class="answers-heading">Nega aynan <br>Akademnashr?</h2>
-        <ul class = "sitenav-list">
+        <ul class = "featurs-icon-list">
             <li>
               <div class="feature-icon-wrapper">
                 <img src="img/logos/Icon.svg" alt="" width="56" height="56">
@@ -52,14 +56,14 @@
               <p class="feature-text"><a href="#">Akedemnashir.uz</a> saytidan o'zigizga yoqqan kitobni sodda usulda buyurtma qila olasiz</p>
             </li>
             <li>
-              <div class="icon-wrapper">
+              <div class="feature-icon-wrapper">
                 <img src="img/logos/Icon-1.svg" alt="" width="56" height="56">
               </div>
               <h3 class="feature-headings">Eng sara kitoblar</h3>
               <p class="feature-text">Trenddagi eng ommabop, turli auditoriyalarga mo'jalangan turli xil kitoblarni topa olasiz</p>
             </li>
             <li>
-              <div class="icon-wrapper">
+              <div class="feature-icon-wrapper">
                 <img src="img/logos/Icon-2.svg" alt="" width="56" height="56">
               </div>
               <h3 class="feature-headings">Tez yetkazib berish</h3>
@@ -68,12 +72,15 @@
         </ul>
       </section>
       <section class="book-sale">
+
         <!-- Aksiyalar -->
-        <h2 class="sale-heading">Bolalar kitoblari uchun
-          ajoyib aksiya!</h2>
-        <p class="sale-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
-        <p class="sale-text">Aksiyadagi eng katta to’plamda <strong class="sale-highlight">50 ta kitob</strong >ni <strong class="sale-highlight">350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
-        <a class="primary-button" href="#">Buyurtma berish <br></a>
+        <div>
+          <h2 class="sale-heading">Bolalar kitoblari uchun
+            ajoyib aksiya!</h2>
+          <p class="sale-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
+          <p class="sale-text">Aksiyadagi eng katta to’plamda <strong class="sale-highlight">50 ta kitob</strong >ni <strong class="sale-highlight">350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+          <a class="primary-button" href="#">Buyurtma berish <br></a>
+        </div>
         <img class="sale-img" src="img/sale-img.jpg" alt="kiroblar rasmlari" width="440" height="440" srcset="img/sale-img.jpg 1x, img/sale-img@2x.jpg 2x">
 
       </section>
@@ -82,10 +89,10 @@
 
   <!-- FOOTER QISMI -->
   <footer class="site-footer">
+    <div class = "socials-with--main-logo">
     <a href="index.html"> <img src="img/logos/akademnashr_logo.svg" alt="Akademnashr-logo" width="227" height="60"></a >
       <!-- ijtimoiy tarmoqlar -->
-    <div>
-      <ul>
+      <ul class="socials">
         <!-- Telegram logo  -->
         <li><a href="https://t.me/Akademnashr" target="_blank"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"><path fill="#252420" d="M12 0C5.376 0 0 5.376 0 12s5.376 12 12 12 12-5.376 12-12S18.624 0 12 0Zm5.568 8.16c-.18 1.896-.96 6.504-1.356 8.628-.168.9-.504 1.2-.816 1.236-.696.06-1.224-.456-1.896-.9-1.056-.696-1.656-1.128-2.676-1.8-1.188-.78-.42-1.212.264-1.908.18-.18 3.252-2.976 3.312-3.228a.24.24 0 0 0-.06-.216c-.072-.06-.168-.036-.252-.024-.108.024-1.788 1.14-5.064 3.348-.48.324-.912.492-1.296.48-.432-.012-1.248-.24-1.86-.444-.756-.24-1.344-.372-1.296-.792.024-.216.324-.432.888-.66 3.504-1.524 5.832-2.532 6.996-3.012 3.336-1.392 4.02-1.632 4.476-1.632.096 0 .324.024.468.144.12.096.156.228.168.324-.012.072.012.288 0 .456Z"/></svg></a></li>
         <!-- Facebook logosi -->
@@ -96,7 +103,7 @@
     </div>
     <hr class="site-footer-divider">
     <!-- lenklar -->
-    <div>
+    <div class = "footer-bottom">
       <div>
         <ul class="site-footer-links">
           <li><a href="#">Bosh sahifa</a></li>

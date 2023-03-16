@@ -4,10 +4,15 @@ body{
                          /* site-header */
 .site-header {
   background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .sitenav-list{
   list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .sitenav-link{
@@ -18,6 +23,7 @@ body{
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
+
 }
 
 .primary-button{
@@ -33,6 +39,8 @@ body{
 .first-rectangle{
   background-color: #252420;
   color: #fff;
+  display: flex;
+
 }
 
 .python-heading {
@@ -42,6 +50,7 @@ body{
   font-weight: 700;
   line-height: 1.2;
   letter-spacing: 0.5px;
+  align-items: flex-start;
 }
 
 .python-text{
@@ -58,7 +67,7 @@ body{
   background-color: #FF7500;
 }
 
-.second-rectangle{
+.featurs{
   background-color: #fff;
 }
 
@@ -70,6 +79,13 @@ body{
   line-height: 1.2;
   letter-spacing: 0.5px;
   color: #000000;
+}
+
+.featurs-icon-list{
+  list-style: none;
+  display: flex;
+  justify-content:space-between ;
+
 }
 
 .icon-wrapper{
@@ -100,6 +116,9 @@ body{
 .book-sale{
   background-color: #252420;
   color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .sale-heading{
@@ -128,17 +147,36 @@ body{
   object-fit: cover;
 }
 
+/* site-footer */
+
 .site-footer ul{
   list-style-type: none;
 }
 .site-footer{
   background-color: #f8f8f8;
+
 }
 
+.socials-with--main-logo{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.socials{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
 .site-footer-divider{
   width: 1100px;
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
+}
+
+.footer-bottom{
+  display: flex;
+  justify-content: center;
 }
 
 .site-footer-links{
