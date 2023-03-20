@@ -1,6 +1,13 @@
 body{
   font-family: "Roboto", sans-serif;
 }
+
+*:focus {
+  outline-color: orange;
+  outline-style: dotted;
+  outline-width: 5px;
+  outline-offset: 2px;
+}
                          /* site-header */
 .site-header {
   background-color: #fff;
