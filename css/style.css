@@ -9,6 +9,7 @@ body{
   outline-offset: 2px;
 }
                          /* site-header */
+
 .site-header {
   background-color: #fff;
   display: flex;
@@ -19,18 +20,32 @@ body{
   padding-bottom: 16px;
 }
 
+.sitenav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
 .sitenav-list{
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   padding: 0;
+  margin: 0;
+  margin-right: 32px;
+
 }
 /* akadimnashr-logo hoveri opacitysi avtivei */
 .akadimnashr-logo{
  transition: opacity 0.4s ease;
+ display: block;
 }
 
+.akadimnashr-logo img{
+  display: block;
+}
 
 .akadimnashr-logo:hover{
   opacity: 0.8;
@@ -39,8 +54,6 @@ body{
 .akadimnashr-logo:active{
   opacity: 0.6;
 }
-
-
 
 .sitenav-link{
   font-weight: 500;
@@ -51,7 +64,13 @@ body{
   text-decoration: none;
   color: #000000;
   transition: color 0.4s ease, opacity 0.4s ease;
+  margin-right: 32px;
 }
+
+.sitenav-list:last-child{
+  margin-right: 0;
+}
+
 .sitenav-link:hover {
   color: #FF7500;
 }
@@ -77,6 +96,7 @@ body{
 .primary-button:active{
   opacity: 0.6;
 }
+ /* mian section */
 
 .first-rectangle{
   background-color: #252420;
@@ -87,6 +107,15 @@ body{
   padding-top: 80px;
   padding-bottom: 80px;
 
+}
+
+.orange-line{
+  width: 80px;
+  height: 3px;
+  background-color: #FF7500;
+  border: none;
+  margin: 0;
+  margin-bottom: 40px;
 }
 
 .hero-img{
@@ -103,6 +132,9 @@ body{
   line-height: 1.2;
   letter-spacing: 0.5px;
   align-items: flex-start;
+  margin: 0;
+  margin-bottom: 24px;
+
 }
 
 .python-text{
@@ -111,13 +143,17 @@ body{
   font-size: 14px;
   line-height: 1.5;
   letter-spacing: 0.5px;
+  margin: 0;
+  margin-bottom: 32px;
 }
 
-.orange-line{
+.orange-line2{
   width: 80px;
   height: 3px;
   background-color: #FF7500;
   border: none;
+  margin: 0;
+  margin-bottom: 24px;
 }
 
 .featurs{
@@ -134,14 +170,24 @@ body{
   line-height: 1.2;
   letter-spacing: 0.5px;
   color: #000000;
+  margin: 0;
+  margin-bottom: 72px;
+}
+
+.featurs-icon-list li{
+  margin: 0;
+  margin-right: 40px;
+}
+
+.featurs-icon-list li:last-child{
+  margin-right: 0;
 }
 
 .featurs-icon-list{
   list-style: none;
   padding: 0;
   display: flex;
-  justify-content:space-between ;
-
+  margin: 0;
 }
 
 .feature-icon-wrapper{
@@ -194,6 +240,8 @@ body{
   font-size: 40px;
   line-height: 1.2;
   letter-spacing: 0.5px;
+  margin: 0;
+  margin-bottom: 24px;
 }
 
 .sale-text{
@@ -201,6 +249,16 @@ body{
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.5px;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.sale-text:last-child{
+  margin-bottom: 0;
+}
+
+.promo-info-wrapper{
+  margin-bottom: 24px;
 }
 
 .sale-highlight{
@@ -226,10 +284,11 @@ body{
 
 }
 
-.socials-with--main-logo{
+.socials-with-main-logo{
   display: flex;
   justify-content: space-between;
   align-content: center;
+  align-items: center;
 }
 
 .socials {
@@ -239,10 +298,25 @@ body{
   align-content: center;
   color: #252420;
   transition: color 0.4s ease, opacity 0.4s ease;
+  margin: 0;
 }
 
 .socials a{
+  display: block;
   color: #252420;
+}
+
+.socials svg {
+  display: block;
+}
+
+.socials li {
+  margin: 0;
+  margin-right: 16px;
+}
+
+.socials li:last-child{
+margin-right: 0;
 }
 
 .socials a:hover{
@@ -259,6 +333,8 @@ body{
   width: 1100px;
   height: 2px;
   background-color: rgba(37, 36, 32, 0.5);
+  margin-top: 40px;
+  margin-bottom: 64px;
 }
 
 .footer-bottom{
@@ -269,7 +345,14 @@ body{
 .site-footer-links{
   width: 220px;
   padding: 0;
+  margin: 0;
+  margin-right: 68px;
 }
+
+.site-footer-links:last-child{
+  margin-right: 0;
+}
+
 .site-footer-links a{
   font-style: 16px;
   line-height: 19px;
