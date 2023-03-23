@@ -1,5 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
 body{
+  margin: 0;
+  padding: 0;
   font-family: "Roboto", sans-serif;
+}
+
+/* Container */
+.container{
+  width: 100%;
+  max-width: 1140px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 *:focus {
@@ -11,13 +27,15 @@ body{
                          /* site-header */
 
 .site-header {
-  background-color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   border-top: 5px solid #FF7500;
   padding-top: 16px;
   padding-bottom: 16px;
+}
+
+.site-header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .sitenav{
@@ -101,14 +119,19 @@ body{
 .first-rectangle{
   background-color: #252420;
   color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.hiro-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 80px;
-  padding-bottom: 80px;
-
 }
 
+.first-rectangle img{
+  box-shadow: 24px 24px 0px rgba(255, 117, 0, 0.6);
+}
 .orange-line{
   width: 80px;
   height: 3px;
@@ -121,7 +144,7 @@ body{
 .hero-img{
   width: 510px;
   height: 510px;
-  border-radius: 8px;
+  border-radius: 9px;
 }
 
 .python-heading {
@@ -198,6 +221,8 @@ body{
   width: 100px;
   height: 100px;
   background-color: rgba(255, 117, 0, 0.2);;
+  margin: 0;
+  margin-bottom: 32px;
 }
 
 .feature-headings{
@@ -208,6 +233,8 @@ body{
   line-height: 1.2;
   letter-spacing: 0.5px;
   color: #000;
+  margin: 0;
+  margin-bottom: 12px;
 }
 
 .akadimnashruz{
@@ -222,6 +249,7 @@ body{
   line-height: 1.5;
   letter-spacing: 0.5px;
   color: #000;
+  margin: 0;
 }
 /* Aksiyalar  */
 .book-sale{
@@ -231,6 +259,13 @@ body{
   justify-content: space-between;
   align-items: center;
   border-radius: 12px;
+  padding: 64px;
+  margin-top: 120px;
+  margin-bottom: 160px;
+}
+
+.sale-section{
+  margin-right: 92px;
 }
 
 .sale-heading{
@@ -348,6 +383,16 @@ margin-right: 0;
   margin: 0;
   margin-right: 68px;
 }
+
+.site-footer-links  li{
+  margin-bottom: 16px;
+}
+
+.site-footer-links  li:last-child{
+  margin-bottom: 0;
+}
+
+
 
 .site-footer-links:last-child{
   margin-right: 0;
