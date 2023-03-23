@@ -123,6 +123,10 @@ body{
   padding-bottom: 80px;
 }
 
+.pathon-page{
+margin-right: 203px;
+}
+
 .hiro-container {
   display: flex;
   justify-content: space-between;
