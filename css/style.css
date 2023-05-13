@@ -1,8 +1,27 @@
-* {
+:root{
+  --accent-color: #FF7500;
+  --heading-font: "Roboto Condensed", "Arial", sans-serif ;
+
+}
+html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+*,
+::before,
+::after{
+box-sizing: inherit;
 }
 
 body{
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+  color: #000;
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
@@ -19,7 +38,7 @@ body{
 }
 
 *:focus {
-  outline-color: orange;
+  outline-color: var(--accent-color);
   outline-style: dotted;
   outline-width: 5px;
   outline-offset: 2px;
@@ -27,7 +46,7 @@ body{
                          /* site-header */
 
 .site-header {
-  border-top: 5px solid #FF7500;
+  border-top: 5px solid var(--accent-color);
   padding-top: 16px;
   padding-bottom: 16px;
 }
@@ -57,8 +76,8 @@ body{
 }
 /* akadimnashr-logo hoveri opacitysi avtivei */
 .akadimnashr-logo{
- transition: opacity 0.4s ease;
- display: block;
+  transition: opacity 0.4s ease;
+  display: block;
 }
 
 .akadimnashr-logo img{
@@ -90,7 +109,7 @@ body{
 }
 
 .sitenav-link:hover {
-  color: #FF7500;
+  color: var(--accent-color);
 }
 
 .sitenav-link:active {
@@ -105,7 +124,7 @@ body{
   line-height: 15px;
   padding: 12px 24px;
   border-radius: 4px;
-  background-color: #FF7500;
+  background-color: var(--accent-color);
   color: #fff;
   text-decoration: none;
   transition: opacity 0.4s ease;
@@ -139,7 +158,7 @@ margin-right: 203px;
 .orange-line{
   width: 80px;
   height: 3px;
-  background-color: #FF7500;
+  background-color: var(--accent-color);
   border: none;
   margin: 0;
   margin-bottom: 40px;
@@ -152,7 +171,7 @@ margin-right: 203px;
 }
 
 .python-heading {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: var(--heading-font);
   font-style: normal;
   font-size: 40px;
   font-weight: 700;
@@ -177,7 +196,7 @@ margin-right: 203px;
 .orange-line2{
   width: 80px;
   height: 3px;
-  background-color: #FF7500;
+  background-color: var(--accent-color);
   border: none;
   margin: 0;
   margin-bottom: 24px;
@@ -190,7 +209,7 @@ margin-right: 203px;
 }
 
 .answers-heading{
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: var(--heading-font);;
   font-style: normal;
   font-weight: 700;
   font-size: 72px;
@@ -230,7 +249,7 @@ margin-right: 203px;
 }
 
 .feature-headings{
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: var(--heading-font);;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -273,7 +292,7 @@ margin-right: 203px;
 }
 
 .sale-heading{
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: var(--heading-font);;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -301,7 +320,7 @@ margin-right: 203px;
 }
 
 .sale-highlight{
-  color: #FF7500;
+  color: var(--accent-color);
 }
 
 .sale-img{
@@ -359,7 +378,7 @@ margin-right: 0;
 }
 
 .socials a:hover{
-  color: #FF7500;
+  color: var(--accent-color);
 }
 
 .socials a:active{
@@ -410,7 +429,7 @@ margin-right: 0;
   transition: color 0.4s ease, opacity 0.4s ease;
 }
 .site-footer-links a:hover {
-  color: #FF7500;
+  color: var(--accent-color);
 }
 
 .site-footer-links a:active{
