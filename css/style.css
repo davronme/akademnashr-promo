@@ -43,7 +43,7 @@ body{
   outline-width: 5px;
   outline-offset: 2px;
 }
-                         /* site-header */
+   /* site-header */
 
 .site-header {
   border-top: 5px solid var(--accent-color);
@@ -143,10 +143,12 @@ body{
 }
 
 .pathon-page{
-margin-right: 203px;
+  width: 100%;
+  max-width: 387px;
 }
 
-.hiro-container {
+.hero-box {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -168,6 +170,9 @@ margin-right: 203px;
   width: 510px;
   height: 510px;
   border-radius: 9px;
+  position: absolute;
+  right: 0;
+  top: -40px;
 }
 
 .python-heading {
@@ -276,6 +281,7 @@ margin-right: 203px;
 }
 /* Aksiyalar  */
 .book-sale{
+  position: relative;
   background-color: #252420;
   color: #FFFFFF;
   display: flex;
@@ -288,6 +294,8 @@ margin-right: 203px;
 }
 
 .sale-section{
+  width: 100%;
+  max-width: 440px;
   margin-right: 92px;
 }
 
@@ -324,6 +332,9 @@ margin-right: 203px;
 }
 
 .sale-img{
+  position: absolute;
+  bottom: 64px;
+  right: 64px;
   width: 440px;
   height: 400px;
   object-fit: cover;
