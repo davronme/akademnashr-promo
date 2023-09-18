@@ -72,7 +72,6 @@ body{
   padding: 0;
   margin: 0;
   margin-right: 32px;
-
 }
 /* akadimnashr-logo hoveri opacitysi avtivei */
 .akadimnashr-logo{
@@ -96,6 +95,10 @@ body{
   margin-right: 24px;
 }
 
+.sitenav-list li:not(:last-child){
+  margin-right: 32px;
+}
+
 .sitenav-link{
   font-weight: 500;
   font-size: 13px;
@@ -105,12 +108,8 @@ body{
   text-decoration: none;
   color: #000000;
   transition: color 0.4s ease, opacity 0.4s ease;
-  margin-right: 32px;
 }
 
-.sitenav-list:last-child{
-  margin-right: 0;
-}
 
 .sitenav-link:hover {
   color: var(--accent-color);
@@ -462,7 +461,7 @@ margin-right: 0;
 
   .hero-img{
     position: static;
-    margin-right: 18px;
+    margin-right: 36px;
   }
 
   .pathon-page{
@@ -489,6 +488,15 @@ margin-right: 0;
 }
 
 @media only screen and (max-width: 1000px) {
+  /* Site header */
+
+  .site-header-container {
+    flex-direction: column;
+  }
+  .akadimnashr-logo {
+    margin-bottom: 18px;
+  }
+
   .pathon-page{
     max-width: inherit;
     flex-grow: 1;
@@ -530,6 +538,16 @@ margin-right: 0;
 }
 
 @media only screen and (max-width: 765px) {
+
+  /* Site header */
+  .sitenav{
+    flex-direction: column;
+  }
+
+  .sitenav-list{
+    margin-right: 0;
+    margin-bottom: 28px;
+  }
   .pathon-page{
     margin-right: 36px;
   }
@@ -647,6 +665,24 @@ margin-right: 0;
 }
 
 @media only screen and (max-width: 530px) {
+  /* site header */
+  .sitenav-list {
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+  .sitenav-list li{
+    width: 50%;
+    margin-right: 0;
+  }
+  .sitenav-list li:not(:last-child){
+    margin-right: 0;
+  }
+
+  .akadimnashr-logo img{
+    max-width: 100%;
+    height: auto;
+  }
   .answers-heading{
     width: 100%;
     text-align: center;
